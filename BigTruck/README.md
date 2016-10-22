@@ -1,3 +1,5 @@
+So here we'll use a Slightly modified Dijkstra, which will at each step pick the branch with the most valuable items when provided with several equally short paths options.
+
 #Problem C - Big Truck
 
 Your boss has hired you to drive a big truck, transporting items between two locations in a city. You’re given a description of the city, with locations of interest and the lengths of roads between them. Your boss requires that you take a shortest path between the starting and ending location, and she’ll check your odometer when you’re done to make sure you didn’t take any unnecessary side trips. However, your friends know you have plenty of unused space in the truck, and they have asked you to stop by several locations in town, to pick up items for them. You’re happy to do this for them. You may not be able to visit every location to pick up everything your friends want, but you’d like to pick up as many items as possible on your trip, as long as it doesn’t make the path any longer than necessary.

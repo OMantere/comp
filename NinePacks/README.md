@@ -1,3 +1,5 @@
+This is a knapsack problem, where the value of a non-matching combination of packs and buns is infinity and the value of a matching combination is the amount of packs required. We return the smallest value.
+
 #Problem H - Nine Packs
 “It’s like how hot dogs come in packs of ten, and buns come in packs of eight or twelve — you have to buy nine packs to make it come out even.”
 
