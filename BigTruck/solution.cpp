@@ -38,7 +38,6 @@ pii dijkstra(vvpii g, vi items, int s, int e) {
     //dijkstra
     while(!pq.empty()) {
         tie(cur, cur_d, cur_v) = pq.top();
-        //cout << "cur=" << cur << " cur_d=" << cur_d << " cur_v=" << cur_v << endl;
         pq.pop();
         vpii node = g[cur];
         for(auto child : node) {
@@ -84,11 +83,9 @@ int main() {
         cin >> d;
         g[a-1].push_back(make_pair(b-1, d));
         g[b-1].push_back(make_pair(a-1, d));
-        //cout << "dist from " << a-1 << " to " << b-1 << " = " << d << endl;
     }
 
     tie(l, v) = dijkstra(g, items, 0, n-1);
-    //cout << "l=" << l << endl;
     if(l == 1e9) {
         cout << "impossible" << endl;
         return 0;
